@@ -120,19 +120,12 @@ public class httpRequest {
 
     public static void main(String[] args) throws IOException {
         //---GET---//
-//        ArrayList array = httpGet("https://prison-tech-api.herokuapp.com/users");
-//        System.out.println(array.get(0));
-//        System.out.println(array.get(1));
-//        //---POST---//---PUT---//
-        JSONObject jsonBody = new JSONObject();
-       // jsonBody.accumulate("Nome", "Gurda Teste");
-//        jsonBody.accumulate("Username", "usernameteste");
-//        jsonBody.accumulate("Password", "passteste");
-//        jsonBody.accumulate("Tipo", 2);
-//        jsonBody.accumulate("Codigo", "codigoteste1231");
-        System.out.println(httpPost("http://localhost:8080/teste", jsonBody));
-//
-//        //---DELETE---//
-//     System.out.println(httpDelete("https://prison-tech-api.herokuapp.com/users/12"));
+        //ArrayList array = httpGet("URL");
+        //System.out.println(array.get(0));
+        //System.out.println(array.get(1));
+        //---POST---//---PUT---//
+        //JSONObject jsonBody = new JSONObject();
+        // jsonBody.accumulate("Key", "Value");
+        //System.out.println(httpPost("URL", jsonBody));
     }
 }
